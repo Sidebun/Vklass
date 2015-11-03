@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Vklass login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/loginstyle.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pr-wrap">
+                    <div class="pass-reset">
+                        <label>
+                            Enter the email you signed up with</label>
+                        <input type="email" placeholder="Email" />
+                        <input type="submit" value="Submit" class="pass-reset-submit btn btn-success btn-sm" />
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <a class="vklassicon"></a>
+                    </div>
+                    <p class="form-title">
+                        Sign In</p>
+
+
+                    <form class="login">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 col-xs-1">
+
+                                <a class="usericon"></a>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <input name="username" type="text" placeholder="Username" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 col-xs-1">
+                                <a class="passicon"></a>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <input name="password" type="password" placeholder="Password" />
+                            </div>
+                        </div>
+                        <div class="remember-forgot">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="checkbox">
+                                        <label class="">
+                                            <input type="checkbox" /> Remember Me
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 forgot-pass-content">
+                                    <a href="javascription:void(0)" class="forgot-pass">Forgot Password</a>
+                                </div>
+                            </div>
+                        </div>
+                        <input name="login" id="logins" method="POST" type="submit" value="Sign In" class="btn btn-success btn-sm" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.forgot-pass').click(function (event) {
+                    $(".pr-wrap").toggleClass("show-pass-reset");
+                });
+
+                $('.pass-reset-submit').click(function (event) {
+                    $(".pr-wrap").removeClass("show-pass-reset");
+                });
+            });
+        </script>
+        <script src="js/login.js"></script>
+</body>
+
+</html>

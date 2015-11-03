@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3.8301589mm"
+   height="4.7876983mm"
+   viewBox="0 0 13.571429 16.964286"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="passicon.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath3412"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         mask="none"
+         r="68.048599"
+         cy="746.64795"
+         cx="181.42857"
+         id="circle3414"
+         style="opacity:1;fill:#ffffff;fill-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-34.461329"
+     inkscape:cy="7.6250629"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(733.35794,-368.64019)">
+    <g
+       transform="matrix(0.68395706,0,0,0.61380756,-747.11217,346.1061)"
+       id="layer1-3"
+       inkscape:label="Layer 1">
+      <g
+         style="fill:#808080"
+         transform="matrix(0.07898809,0,0,0.07653397,15.769069,36.711983)"
+         id="g3391">
+        <g
+           style="fill:#808080"
+           id="g3348">
+          <g
+             style="fill:#808080"
+             id="_x32_37._Locked">
+            <g
+               style="fill:#808080"
+               id="g3351">
+              <path
+                 style="fill:#808080"
+                 inkscape:connector-curvature="0"
+                 d="m 274.765,141.3 0,-47.095 C 274.765,42.172 232.583,0 180.559,0 128.527,0 86.354,42.172 86.354,94.205 l 0,47.095 c -17.34,0 -31.4,14.06 -31.4,31.4 l 0,157.016 c 0,17.344 14.06,31.402 31.4,31.402 l 188.411,0 c 17.341,0 31.398,-14.059 31.398,-31.402 l 0,-157.016 c 10e-4,-17.34 -14.057,-31.4 -31.398,-31.4 z M 117.756,94.205 c 0,-34.69 28.12,-62.803 62.803,-62.803 34.685,0 62.805,28.112 62.805,62.803 l 0,47.095 -125.608,0 0,-47.095 z m 157.009,235.51 -188.411,0 0,-157.007 188.411,0 0,157.007 z m -109.907,-67.157 0,20.054 c 0,8.664 7.035,15.701 15.701,15.701 8.664,0 15.701,-7.037 15.701,-15.701 l 0,-20.054 c 9.337,-5.441 15.701,-15.456 15.701,-27.046 0,-17.348 -14.062,-31.41 -31.402,-31.41 -17.34,0 -31.4,14.062 -31.4,31.41 0,11.59 6.358,21.605 15.699,27.046 z"
+                 id="path3353" />
+            </g>
+          </g>
+        </g>
+        <g
+           style="fill:#808080"
+           id="g3355" />
+        <g
+           style="fill:#808080"
+           id="g3357" />
+        <g
+           style="fill:#808080"
+           id="g3359" />
+        <g
+           style="fill:#808080"
+           id="g3361" />
+        <g
+           style="fill:#808080"
+           id="g3363" />
+        <g
+           style="fill:#808080"
+           id="g3365" />
+        <g
+           style="fill:#808080"
+           id="g3367" />
+        <g
+           style="fill:#808080"
+           id="g3369" />
+        <g
+           style="fill:#808080"
+           id="g3371" />
+        <g
+           style="fill:#808080"
+           id="g3373" />
+        <g
+           style="fill:#808080"
+           id="g3375" />
+        <g
+           style="fill:#808080"
+           id="g3377" />
+        <g
+           style="fill:#808080"
+           id="g3379" />
+        <g
+           style="fill:#808080"
+           id="g3381" />
+        <g
+           style="fill:#808080"
+           id="g3383" />
+      </g>
+    </g>
+  </g>
+</svg>

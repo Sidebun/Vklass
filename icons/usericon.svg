@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="4.2818284mm"
+   height="4.4825392mm"
+   viewBox="0 0 15.171833 15.883013"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="usericon.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath3412"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         mask="none"
+         r="68.048599"
+         cy="746.64795"
+         cx="181.42857"
+         id="circle3414"
+         style="opacity:1;fill:#ffffff;fill-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-78.661132"
+     inkscape:cy="-5.5048566"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(689.15814,-356.59154)">
+    <g
+       transform="matrix(0.66903576,0,0,0.66903576,-520.51182,122.73002)"
+       id="layer1-0"
+       inkscape:label="Layer 1">
+      <g
+         style="fill:#808080"
+         transform="matrix(0.03705546,0,0,0.03628063,-252.85868,349.55011)"
+         id="g3481">
+        <g
+           style="fill:#808080"
+           id="g3438">
+          <g
+             style="fill:#808080"
+             id="user">
+            <g
+               style="fill:#808080"
+               id="g3441">
+              <path
+                 style="fill:#808080"
+                 inkscape:connector-curvature="0"
+                 d="M 466.121,401.586 C 518.408,360.402 552.106,296.666 552.106,224.932 552.106,100.708 451.398,0 327.174,0 202.95,0 102.242,100.708 102.242,224.932 c 0,71.733 33.699,135.47 85.985,176.654 C 94.471,449.373 28.484,543.764 21.184,654.348 l 40.958,0 c 7.893,-103.549 75.209,-190.332 167.861,-226.793 29.446,14.15 62.327,22.311 97.171,22.311 34.865,0 67.725,-8.16 97.17,-22.311 92.652,36.461 159.968,123.244 167.861,226.793 l 40.958,0 C 625.884,543.764 559.876,449.373 466.121,401.586 Z m -138.947,7.383 c -101.649,0 -184.036,-82.387 -184.036,-184.037 0,-101.649 82.387,-184.035 184.036,-184.035 101.649,0 184.036,82.386 184.036,184.035 -10e-4,101.65 -82.387,184.037 -184.036,184.037 z"
+                 id="path3443" />
+            </g>
+          </g>
+        </g>
+        <g
+           style="fill:#808080"
+           id="g3445" />
+        <g
+           style="fill:#808080"
+           id="g3447" />
+        <g
+           style="fill:#808080"
+           id="g3449" />
+        <g
+           style="fill:#808080"
+           id="g3451" />
+        <g
+           style="fill:#808080"
+           id="g3453" />
+        <g
+           style="fill:#808080"
+           id="g3455" />
+        <g
+           style="fill:#808080"
+           id="g3457" />
+        <g
+           style="fill:#808080"
+           id="g3459" />
+        <g
+           style="fill:#808080"
+           id="g3461" />
+        <g
+           style="fill:#808080"
+           id="g3463" />
+        <g
+           style="fill:#808080"
+           id="g3465" />
+        <g
+           style="fill:#808080"
+           id="g3467" />
+        <g
+           style="fill:#808080"
+           id="g3469" />
+        <g
+           style="fill:#808080"
+           id="g3471" />
+        <g
+           style="fill:#808080"
+           id="g3473" />
+      </g>
+    </g>
+  </g>
+</svg>
