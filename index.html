@@ -35,11 +35,11 @@
                 <ul class="nav navbar-nav navbar-right ">
                     <li><a href="">Name</a></li>
                     <li>
-                        <i href="" class="worldicon"></i>
+                        <i href="" class="worldicon iconspin-hover"></i>
 
                     </li>
-                    <li><i class="settingicon "></i></li>
-                    <li><i class="tabyjumpingicon "></i></li>
+                    <li><i class="settingicon iconflip-hover"></i></li>
+                    <li><i class="tabyjumpingicon iconflip-hover"></i></li>
                 </ul>
             </div>
         </div>
@@ -81,7 +81,7 @@
 
                     <div class="well">
                         <ul class="nav nav-stacked " id="sidebar ">
-                            <li><i class="schemaicon"></i><a class="a-hover" href="#sec1 ">Schema</a></li>
+                            <li><i class="schemaicon"></i><a class="a-hover schema-knapp" href="#sec1 ">Schema</a></li>
                             <li><i class="klassicon"></i><a class="a-hover" href="#sec2 ">Min Klass</a></li>
                             <li><i class="courseicon"></i><a class="a-hover" href="#sec3 ">Mina kurser</a></li>
                             <li><i class="skolaicon"></i><a class="a-hover" href="#sec4 ">Min Skola</a></li>
@@ -91,25 +91,37 @@
                         </ul>
                     </div>
                     <div class="well">
-                        
+
                         <div class="well smschema smdag">
                             <p>Fredag</p>
                         </div>
-                        
-                            <div class="well smovre"><p>08.20-09.45</p></div>
-                            <div class="well smundre"><p>PRG 2</p></div>
-                       
-                        
-                            <div class=" well smovre"><p>09.55-11.05</p></div>
-                            <div class="well smundre"><p>Datalagring</p></div>
-                        
-                        
-                            <div class="well smovre"><p>12.00-13.35</p></div>
-                            <div class="well smundre"><p>Gymn ingenjör</p></div>
-                        
-                        
-                        
-                        
+
+                        <div class="well smovre">
+                            <p>08.20-09.45</p>
+                        </div>
+                        <div class="well smundre">
+                            <p>PRG 2</p>
+                        </div>
+
+
+                        <div class=" well smovre">
+                            <p>09.55-11.05</p>
+                        </div>
+                        <div class="well smundre">
+                            <p>Datalagring</p>
+                        </div>
+
+
+                        <div class="well smovre">
+                            <p>12.00-13.35</p>
+                        </div>
+                        <div class="well smundre">
+                            <p>Gymn ingenjör</p>
+                        </div>
+
+
+
+
                     </div>
 
 
@@ -120,69 +132,164 @@
 
         </div>
     </div>
-    <!--/row-->
 
 
 
+    <div class="main-frame container col-md-10 col-sm-10 col-xs-10">
 
-    <!--/main-->
 
-    <!--login modal-->
-    <div id="loginModal " class="modal fade " tabindex="-1 " role="dialog " aria-hidden="true ">
-        <div class="modal-dialog ">
-            <div class="modal-content ">
-                <div class="modal-header ">
-                    <button type="button " class="close " data-dismiss="modal " aria-hidden="true ">×</button>
-                    <h2 class="text-center "><img src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100 " class="img-circle "><br>Login</h2>
+        <div class="main-scheme container col-md-12">
+
+            <div class="col-md-12 panel panel-default">
+                <div class="panel-heading col-md-2">
+                    <h2>Måndag</h2>
                 </div>
-                <div class="modal-body ">
-                    <form class="form col-md-12 center-block ">
-                        <div class="form-group ">
-                            <input type="text " class="form-control input-lg " placeholder="Email ">
-                        </div>
-                        <div class="form-group ">
-                            <input type="password " class="form-control input-lg " placeholder="Password ">
-                        </div>
-                        <div class="form-group ">
-                            <button class="btn btn-primary btn-lg btn-block ">Sign In</button>
-                            <span class="pull-right "><a href="# ">Register</a></span><span><a href="# ">Need help?</a></span>
-                        </div>
-                    </form>
+                <div class="panel-heading col-md-2">
+                    <h2>Tisdag</h2>
                 </div>
-                <div class="modal-footer ">
-                    <div class="col-md-12 ">
-                        <button class="btn " data-dismiss="modal " aria-hidden="true ">Cancel</button>
-                    </div>
+                <div class="panel-heading col-md-2">
+                    <h2>Onsdag</h2>
+                </div>
+                <div class="panel-heading col-md-2">
+                    <h2>Torsdag</h2>
+                </div>
+                <div class="panel-heading col-md-2">
+                    <h2>Fredag</h2>
+                </div>
+
+            </div>
+
+            <div class=" container col-md-2 main-scheme-frame ">
+
+                <div class="container col-md-12 scheme-course 0-0">
+                    <p class="0-0st-lekt"></p>
+                    <p class="0-0st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="0-0st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 0-1">
+                    <p class="0-1st-lekt"></p>
+                    <p class="0-1st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="0-1st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 0-2">
+                    <p class="0-2st-lekt"></p>
+                    <p class="0-2st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="0-2st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 0-3">
+                    <p class="0-3st-lekt"></p>
+                    <p class="0-3st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="0-3st-time"></p>
+
+
+                </div>
+
+            </div>
+            <div class="col-md-2 main-scheme-frame">
+                <div class="container col-md-12 scheme-course 1-0">
+                    <p class="1-0st-lekt"></p>
+                    <p class="1-0st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="1-0st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 1-1">
+                    <p class="1-1st-lekt"></p>
+                    <p class="1-1st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="1-1st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 1-2">
+                    <p class="1-2st-lekt"></p>
+                    <p class="1-2st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="1-2st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 1-3">
+                    <p class="1-3st-lekt"></p>
+                    <p class="1-3st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="1-3st-time"></p>
+
+
                 </div>
             </div>
+            <div class="col-md-2 main-scheme-frame">
+
+                <div class="container col-md-12 scheme-course 2-0">
+                    <p class="2-0st-lekt"></p>
+                    <p class="2-0st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="2-0st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 2-1">
+                    <p class="2-1st-lekt"></p>
+                    <p class="2-1st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="2-1st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 2-2">
+                    <p class="2-2st-lekt"></p>
+                    <p class="2-2st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="2-2st-time"></p>
+
+
+                </div>
+                <div class="container col-md-12 scheme-course 2-3">
+                    <p class="2-3st-lekt"></p>
+                    <p class="2-3st-teac"></p>
+                    <a href="#" class="scheme-note-icon"></a>
+                    <p class="2-3st-time"></p>
+
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="col-md-2 main-scheme-frame"></div>
+            <div class="col-md-2 main-scheme-frame"></div>
+
+
         </div>
+
+
+
+
+
+
+
+
+
+
     </div>
 
 
-    <!--about modal-->
-    <div id="aboutModal " class="modal fade " tabindex="-1 " role="dialog " aria-hidden="true ">
-        <div class="modal-dialog ">
-            <div class="modal-content ">
-                <div class="modal-header ">
-                    <button type="button " class="close " data-dismiss="modal " aria-hidden="true ">×</button>
-                    <h2 class="text-center ">About</h2>
-                </div>
-                <div class="modal-body ">
-                    <div class="col-md-12 text-center ">
 
-                        <br>was made with <i class="glyphicon glyphicon-heart "></i> by <a href="http://bootply.com/templates ">Bootply</a>
-                        <br>
-                        <br>
-                        <a href="https://github.com/iatek/bootstrap-google-plus ">GitHub Fork</a>
-                    </div>
-                </div>
-                <div class="modal-footer ">
-                    <button class="btn " data-dismiss="modal " aria-hidden="true ">OK</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- script references -->
+
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js "></script>
     <script src="js/bootstrap.min.js "></script>
     <script src="js/scripts.js "></script>

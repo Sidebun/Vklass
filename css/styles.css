@@ -83,10 +83,17 @@ html {
     background-color: none;
 }
 
-.a-hover:hover {
+.a-hover:hover,
+.a-hover:active {
     color: #59CD7D;
+    border-right: 1px solid #616161;
     /* color: #37b75e;
     color: #00B7FF;*/
+}
+
+.a-hover:focus {
+    border-right: 1px solid #59CD7D;
+    color: #59CD7D;
 }
 
 .btn-green:hover {
@@ -104,11 +111,13 @@ html {
     border: 0px;
 }
 
-.a-hover:active,
+
+/*
 .a-hover:focus {
-    border-right: 1px solid;
+    border-right: 1px solid black;
     color: #2997C2;
 }
+*/
 
 .btn-plus {
     background-color: #ffffff;
@@ -302,6 +311,7 @@ h5 {
     margin-right: 10px;
     width: 26px;
     height: 27px;
+    z-index: 9999;
 }
 
 .klassicon {
@@ -423,4 +433,65 @@ h5 {
     width: 28px;
     height: 30px;
     margin-top: 10px;
+}
+
+
+/*ANIMATIONS*/
+
+.iconspin-hover:hover {
+    -webkit-transform: rotateZ(90deg);
+    -webkit-transition-duration: 0.5s;
+}
+
+.iconflip-hover:hover {
+    /* -webkit-transform: scaleX(-1);
+    -webkit-transition-duration: 0.5s;*/
+    -webkit-animation-name: flip;
+    -webkit-animation-duration: .5s;
+}
+
+@keyframes flip {
+    0% {
+        -webkit-transform: scaleX(1);
+    }
+    48% {
+        -webkit-transform: scaleX(0);
+    }
+    98% {
+        -webkit-transform: scaleX(1);
+    }
+}
+
+
+/*
+:hover {
+-webkit-filter:hue-rotate(50deg);
+}*/
+
+
+/*MAIN FRAME*/
+
+.main-frame {
+    height: 100%;
+    top: 50px;
+}
+
+.panel-heading {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.main-scheme {
+    height: 100%;
+}
+
+.main-scheme-frame {
+    width: 19%;
+    height: 80%;
+    background-color: rgba(79, 202, 196, 0.1);
+}
+
+.scheme-course {
+    background-color: rgba(159, 227, 193, 0.7);
+    position: absolute;
 }
