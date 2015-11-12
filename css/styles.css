@@ -299,6 +299,19 @@ h5 {
     padding-top: 120px;
 }
 
+.foot-frame {
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+}
+
+.support {
+    text-align: center;
+    float: left;
+    margin-top: 14%;
+    color: rgba(168, 168, 168, 0.9);
+}
+
 
 /* icons */
 
@@ -435,6 +448,16 @@ h5 {
     margin-top: 10px;
 }
 
+.treeicon {
+    background: url(../icons/Tree-icon.png);
+    background-size: cover;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
 
 /*ANIMATIONS*/
 
@@ -476,6 +499,9 @@ h5 {
     top: 50px;
 }
 
+
+/*SCHEMA*/
+
 .panel-heading {
     text-align: center;
     margin-left: 40px;
@@ -486,12 +512,32 @@ h5 {
 }
 
 .main-scheme-frame {
-    width: 19%;
+    width: 20%;
     height: 80%;
     background-color: rgba(79, 202, 196, 0.1);
 }
 
 .scheme-course {
-    background-color: rgba(159, 227, 193, 0.7);
+    background-color: rgba(123, 234, 173, 0.4);
     position: absolute;
+    border: 1px solid rgb(200, 200, 200);
+    left: 0;
+}
+
+.lekt {
+    color: rgb(24, 164, 209);
+    margin-top: 5px;
+    float: left;
+}
+
+.teac {
+    margin-top: 5px;
+    float: left;
+    position: absolute;
+    margin-left: 80%;
+}
+
+.time {
+    position: absolute;
+    bottom: 0;
 }
